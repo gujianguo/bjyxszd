@@ -2,7 +2,7 @@ $(function() {
     // alert(11);
     // 1. 按下回车 把完整数据 存储到本地存储里面
     // 存储的数据格式  var todolist = [{title: "xxx", done: false}]
-    load();
+    // load();
     $("#title").on("keydown", function(event) {
         if (event.keyCode === 13) {
             if ($(this).val() === "") {
